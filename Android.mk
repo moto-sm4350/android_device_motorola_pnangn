@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),berlna)
+ifeq ($(TARGET_DEVICE),pnangn)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif

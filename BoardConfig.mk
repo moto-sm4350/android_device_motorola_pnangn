@@ -14,20 +14,20 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/motorola/berlna
+DEVICE_PATH := device/motorola/pnangn
 
-# Inherit from motorola sm7325-common
-include device/motorola/sm7325-common/BoardConfigCommon.mk
+# Inherit from motorola sm4350-common
+include device/motorola/sm4350-common/BoardConfigCommon.mk
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := berlna
+TARGET_BOOTLOADER_BOARD_NAME := pnangn
 
 # HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest_berlna.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest_pnangn.xml
 
 # Kernel
-BOARD_KERNEL_CMDLINE += androidboot.hab.product=berlna
-TARGET_KERNEL_CONFIG += vendor/lineage_berlna.config
+BOARD_KERNEL_CMDLINE += androidboot.hab.product=pnangn
+TARGET_KERNEL_CONFIG += vendor/lineage_pnangn.config
 
 # Kernel Modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
@@ -58,7 +58,7 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 
 # Security
-VENDOR_SECURITY_PATCH := 2023-12-01
+VENDOR_SECURITY_PATCH := 2023-10-01
 
 # inherit from the proprietary version
-include vendor/motorola/berlna/BoardConfigVendor.mk
+include vendor/motorola/pnangn/BoardConfigVendor.mk

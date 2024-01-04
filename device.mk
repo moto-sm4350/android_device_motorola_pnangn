@@ -28,20 +28,20 @@ PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 
 PRODUCT_SHIPPING_API_LEVEL := 30
 
-# Inherit from motorola sm7325-common
-$(call inherit-product, device/motorola/sm7325-common/common.mk)
+# Inherit from motorola sm4350-common
+$(call inherit-product, device/motorola/sm4350-common/common.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    FrameworksResBerlna \
-    LineageSystemUIBerlna \
-    SettingsResBerlna \
-    SettingsProviderResBerlna \
-    SystemUIResBerlna \
-    WifiResBerlna
+    FrameworksResPnangn \
+    LineageSystemUIPnangn \
+    SettingsResPnangn \
+    SettingsProviderResPnangn \
+    SystemUIResPnangn \
+    WifiResPnangn
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -59,7 +59,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.berlna \
+    android.hardware.biometrics.fingerprint@2.1-service.pnangn \
     com.motorola.hardware.biometric.fingerprint@1.0.vendor
 
 $(foreach f,$(wildcard $(LOCAL_PATH)/configs/idc/*.idc),\
@@ -77,16 +77,16 @@ $(foreach f,$(wildcard $(LOCAL_PATH)/rootdir/bin/*.sh),\
 
 # Init (recovery)
 PRODUCT_PACKAGES += \
-    init.recovery.berlna.rc \
+    init.recovery.pnangn.rc \
     load_touch.sh
 
 # Lineage Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.berlna
+    vendor.lineage.touch@1.0-service.pnangn
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.berlna
+    android.hardware.lights-service.pnangn
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -104,10 +104,10 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    sensors.berlna
+    sensors.pnangn
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/motorola/berlna/berlna-vendor.mk)
+$(call inherit-product, vendor/motorola/pnangn/pnangn-vendor.mk)

@@ -15,8 +15,8 @@ persist.mot_bt.aptx_cert=true
 ro.lenovo.single_hand=1
 ro.mot.build.customerid=global
 ro.support_one_handed_mode=true
-ro.vendor.paramfile.device=berlna
-ro.vendor.paramfile.special_device=berlna_global
+ro.vendor.paramfile.device=pnangn
+ro.vendor.paramfile.special_device=pnangn_g
 
 # Radio
 persist.radio.call_type=1

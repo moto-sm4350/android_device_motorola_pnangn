@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "lineage.touch@1.0-service.berlna"
+#define LOG_TAG "lineage.touch@1.0-service.pnangn"
 
 #include <android-base/logging.h>
 #include <hidl/HidlTransportSupport.h>

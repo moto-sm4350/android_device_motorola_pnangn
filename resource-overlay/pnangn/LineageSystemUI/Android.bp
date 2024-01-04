@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "LineageSystemUIBerlna",
+    name: "LineageSystemUIPnangn",
     vendor: true,
 }

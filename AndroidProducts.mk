@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_berlna.mk
+    $(LOCAL_DIR)/lineage_pnangn.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_berlna-user \
-    lineage_berlna-userdebug \
-    lineage_berlna-eng
+    lineage_pnangn-user \
+    lineage_pnangn-userdebug \
+    lineage_pnangn-eng

@@ -14,9 +14,9 @@
 // limitations under the License.
 
 cc_binary {
-    name: "vendor.lineage.touch@1.0-service.berlna",
-    vintf_fragments: ["vendor.lineage.touch@1.0-service.berlna.xml"],
-    init_rc: ["vendor.lineage.touch@1.0-service.berlna.rc"],
+    name: "vendor.lineage.touch@1.0-service.pnangn",
+    vintf_fragments: ["vendor.lineage.touch@1.0-service.pnangn.xml"],
+    init_rc: ["vendor.lineage.touch@1.0-service.pnangn.rc"],
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
     proprietary: true,

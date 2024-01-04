@@ -22,8 +22,8 @@ fi
 
 set -e
 
-export DEVICE=berlna
-export DEVICE_COMMON=sm7325-common
+export DEVICE=pnangn
+export DEVICE_COMMON=sm4350-common
 export VENDOR=motorola
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

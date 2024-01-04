@@ -38,7 +38,7 @@ load_touch()
 	    cd $firmware_path
 	    case $panel_supplier in
 	        tianma)
-			    firmware_file="novatek_ts-NT36675-21061805-603a-berlna.bin"
+			    firmware_file="djn_novatek_ts_fw.bin"
 	            ;;
 	    esac
 	echo "Firmware file for upgrade $firmware_file"

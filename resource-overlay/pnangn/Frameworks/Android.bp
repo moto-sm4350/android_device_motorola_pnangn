@@ -1,5 +1,5 @@
 runtime_resource_overlay {
-    name: "SettingsProviderResBerlna",
+    name: "FrameworksResPnangn",
     sdk_version: "current",
     vendor: true
 }

@@ -18,22 +18,22 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from berlna device
-$(call inherit-product, device/motorola/berlna/device.mk)
+# Inherit from pnangn device
+$(call inherit-product, device/motorola/pnangn/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_berlna
-PRODUCT_DEVICE := berlna
+PRODUCT_NAME := lineage_pnangn
+PRODUCT_DEVICE := pnangn
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := motorola edge (2021)
+PRODUCT_MODEL := moto g 5G (2023)
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=berlna_global \
-    PRIVATE_BUILD_DESC="berlna_global-user 13 T1RMS33.1-110-17-1 953246-93410 release-keys"
+    TARGET_PRODUCT=pnangn_g \
+    PRIVATE_BUILD_DESC="pnangn_g-user 13 T1TPN33.58-94 2f4bf-fbe4c release-keys"
 
-BUILD_FINGERPRINT := motorola/berlna_global/berlna:13/T1RMS33.1-110-17-1/953246-93410:user/release-keys
+BUILD_FINGERPRINT := motorola/pnangn_g/pnangn:13/T1TPN33.58-94/2f4bf-fbe4c:user/release-keys

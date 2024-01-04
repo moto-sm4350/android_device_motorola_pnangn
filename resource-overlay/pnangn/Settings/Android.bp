@@ -1,5 +1,5 @@
 runtime_resource_overlay {
-    name: "SystemUIResBerlna",
+    name: "SettingsResPnangn",
     sdk_version: "current",
     vendor: true
 }

@@ -1,19 +1,19 @@
-# Device configuration for Motorola Edge (2021)
+# Device configuration for Moto G 5G (2023)
 
 ## Device specifications
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | Octa-core (1x2.4 GHz Cortex-A78 & 3x2.2 GHz Cortex-A78 & 4x1.9 GHz Cortex-A55)
-CHIPSET | Qualcomm SM7325 Snapdragon 778G
-GPU     | Adreno 642L
-Shipped Android Version | 11
-Memory  | 8GB
-Storage | 256GB
+CPU     | Octa-core (2x2.2 GHz Kryo 460 & 6x1.8 GHz Kryo 460)
+CHIPSET | Qualcomm SM4350-AC Snapdragon 480+ 5G
+GPU     | Adreno 619
+Shipped Android Version | 13
+Memory  | 4GB
+Storage | 128GB
 Battery | 5000 mAh
-Dimensions | 169 x 75.6 x 9 mm
-Display | 1080 x 2460 pixels, 6.8" TFT IPS LCD, 144Hz, HDR10
-Rear Camera  | 108 MP (f/1.9) + 8 MP (f/2.2) + 2 MP (f/2.4)
-Front Camera | 32 MP (f/2.3)
+Dimensions | 164 x 75 x 8.4 mm
+Display | 720 x 1600 pixels, 6.5" IPS LCD, 120Hz
+Rear Camera  | 48 MP (f/1.7) + 2 MP (f/2.4)
+Front Camera | 8 MP (f/2.0)
 
-![Device Picture](https://fdn2.gsmarena.com/vv/pics/motorola/motorola-edge-2021-00.jpg)
+![Device Picture](https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g-5g-2023-2.jpg)

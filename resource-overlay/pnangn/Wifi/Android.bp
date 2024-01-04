@@ -4,7 +4,7 @@
 //
 
 runtime_resource_overlay {
-    name: "WifiResBerlna",
+    name: "WifiResPnangn",
     sdk_version: "current",
     vendor: true,
 }
